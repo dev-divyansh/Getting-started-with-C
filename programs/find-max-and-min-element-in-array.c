@@ -3,6 +3,7 @@
 void
 main ()
 {
+  clrscr();
   printf ("enter number of elements you will enter in array 1 ");
   int n;
   scanf ("%d", &n);
@@ -29,4 +30,5 @@ main ()
     }}
     // printing max  and  min element in the array
     printf(" Min element : %d Max  element : %d" , arr[0] , arr[n-1]);
+  getch();
 } 

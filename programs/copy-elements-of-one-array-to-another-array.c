@@ -3,7 +3,7 @@
 void
 main ()
 {
-   
+  clrscr();
   printf ("enter number of elements you will enter in array 1 ");
   int n;
   scanf ("%d", &n);
@@ -28,5 +28,5 @@ main ()
     for(int k=0;k<n;k++){
         printf("%d \t" , arr2[k]);
     }
-  
+  getch();
 }

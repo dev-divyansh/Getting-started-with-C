@@ -2,6 +2,7 @@
 #include<conio.h>
 void main()
 {
+    clrscr();
     printf("enter number of elements you will enter");
     int n;
     scanf("%d" , &n);
@@ -22,5 +23,6 @@ void main()
     for(int j=n-1 ;j>=0;j--){
         printf("%d \t" , arr[j]);    
     }
+    getch();
 }
 

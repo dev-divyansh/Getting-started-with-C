@@ -3,6 +3,7 @@
 void
 main ()
 {
+  clrscr();
   printf ("enter number of elements you will enter");
   int n;
   scanf ("%d", &n);
@@ -24,5 +25,6 @@ main ()
 
   // printing the  value of  sum
   printf ("Sum = %d", sum);
+  getch();
 }
 

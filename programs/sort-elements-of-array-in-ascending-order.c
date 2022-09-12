@@ -1,4 +1,4 @@
-```
+
 // program to sort the array in ascending order
 #include<stdio.h>
 #include<conio.h>
@@ -29,4 +29,3 @@ clrscr();
     }
     getch();
 }
-```
